@@ -6,8 +6,9 @@
     <RootNamespace>prometheus_console_dashboard</RootNamespace>
     <LangVersion>latest</LangVersion>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
-	  <AnalysisMode>AllEnabledByDefault</AnalysisMode>
-	  <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <DebugType>Full</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
