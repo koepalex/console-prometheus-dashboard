@@ -20,6 +20,8 @@ namespace prometheus_console_dashboard
         {
 			Application.Init();
 			var top = Application.Top;
+            _viewModel.PollingInterval = DefaultPollingInterval;
+            _viewModel.PrometheusServer = new Uri(DefaultPrometheusServer);
 
 			// Creates the top-level window to show
 			var win = new Window("Console Prometheus Metric Dashboard")
